@@ -1,14 +1,6 @@
 # TimeShift: Enterprise-Grade Time Series Anomaly Detection
  
-<div align="center">
-<!-- BADGE OPTION 1: Using Shields.io (Static Badges) -->
-![Version](https://img.shields.io/badge/version-1.0.0-blue?style=flat-square)
-![Python](https://img.shields.io/badge/Python-3.8+-green?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-brightgreen?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Production%20Ready-green?style=flat-square)
-![Coverage](https://img.shields.io/badge/Coverage-90%25-blue?style=flat-square)
- 
-<!-- ALTERNATIVE BADGE OPTION 2: If shields.io doesn't work, use this -->
+
 <!-- 
 **Version:** 1.0.0 | **Python:** 3.8+ | **License:** MIT | **Status:** Production Ready | **Coverage:** 90%+
 -->
