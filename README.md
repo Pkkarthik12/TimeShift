@@ -1,12 +1,17 @@
 # TimeShift: Enterprise-Grade Time Series Anomaly Detection
  
 <div align="center">
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?style=flat-square)
-![Python](https://img.shields.io/badge/python-3.8+-green.svg?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)
-![Tests](https://img.shields.io/badge/tests-passing-green.svg?style=flat-square)
-![Coverage](https://img.shields.io/badge/coverage-90%25+-blue.svg?style=flat-square)
-![Status](https://img.shields.io/badge/status-production%20ready-green.svg?style=flat-square)
+<!-- BADGE OPTION 1: Using Shields.io (Static Badges) -->
+![Version](https://img.shields.io/badge/version-1.0.0-blue?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3.8+-green?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-brightgreen?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Production%20Ready-green?style=flat-square)
+![Coverage](https://img.shields.io/badge/Coverage-90%25-blue?style=flat-square)
+ 
+<!-- ALTERNATIVE BADGE OPTION 2: If shields.io doesn't work, use this -->
+<!-- 
+**Version:** 1.0.0 | **Python:** 3.8+ | **License:** MIT | **Status:** Production Ready | **Coverage:** 90%+
+-->
  
 **Production-Ready Anomaly Detection System with Multi-Algorithm Ensemble & Enterprise Data Pipeline**
  
@@ -485,12 +490,6 @@ log_level: INFO
 ### 1. **Sensor Data Monitoring**
 Detect anomalies in IoT sensor streams (temperature, pressure, vibration)
  
-```python
-detector = AnomalyDetector(methods=['isolation_forest', 'prophet'])
-detector.fit(historical_sensor_data)
-results = detector.detect(streaming_sensor_data)
-```
- 
 ### 2. **Time Series Analysis**
 Identify unusual patterns in financial markets, network traffic, or system metrics
  
@@ -523,45 +522,6 @@ Isolation Forest: ████████████     2ms
 ARIMA:           ███████           3ms
 Prophet:         ████              5ms
 Ensemble:        ██████            10ms
-```
- 
----
- 
-## 🔄 Workflow Examples
- 
-### Scientific Research
-```python
-# Experiment with different configurations
-for sensitivity in [0.8, 0.9, 0.95]:
-    detector = AnomalyDetector(sensitivity=sensitivity)
-    detector.fit(train_data)
-    results = detector.detect(test_data)
-    evaluate(results)
-```
- 
-### Production Deployment
-```python
-# Load config, fit once, detect continuously
-config = SystemConfig.from_json('production_config.json')
-detector = AnomalyDetector(**config.detector.to_dict())
-detector.fit(historical_data)
- 
-# Stream new data
-for incoming_batch in data_stream:
-    results = detector.detect(incoming_batch)
-    alert_system(results)
-```
- 
-### Data Analysis Pipeline
-```python
-# Process and analyze data
-pipeline = DataPipeline()
-data = pipeline.load('data.csv')
-processed = pipeline.process(data)
-detector = AnomalyDetector()
-detector.fit(processed[:700])
-results = detector.detect(processed[700:])
-pipeline.export('results.csv')
 ```
  
 ---
@@ -603,19 +563,6 @@ git push origin feature/amazing-feature
 ## 📝 License
  
 This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
- 
-```
-MIT License
- 
-Copyright (c) 2024 TimeShift Contributors
- 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-```
  
 ---
  
@@ -691,3 +638,11 @@ If you use TimeShift in your research or project, please cite:
 🚀 **Easy to Deploy** - Single pip install  
  
 ---
+ 
+<div align="center">
+**Made with ❤️ for anomaly detection in production systems**
+ 
+[⬆ back to top](#timeshift-enterprise-grade-time-series-anomaly-detection)
+ 
+</div>
+ 
