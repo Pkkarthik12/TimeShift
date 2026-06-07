@@ -631,10 +631,4 @@ If you use TimeShift in your research or project, please cite:
  
 ---
  
-<div align="center">
-**Made with ❤️ for anomaly detection in production systems**
- 
-[⬆ back to top](#timeshift-enterprise-grade-time-series-anomaly-detection)
- 
-</div>
- 
+
